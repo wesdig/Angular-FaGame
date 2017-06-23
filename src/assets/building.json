@@ -10,10 +10,12 @@
         "prices": [
           {
             "idResource": 1,
+            "name": "bois",
             "amount": 150
           },
           {
             "idResource": 1,
+            "name": "fer",
             "amount": 30
           }
         ]
@@ -23,10 +25,12 @@
         "prices": [
           {
             "idResource": 1,
+            "name": "bois",
             "amount": 270
           },
           {
             "idResource": 1,
+            "name": "fer",
             "amount": 75
           }
         ]
@@ -44,10 +48,12 @@
         "prices": [
           {
             "idResource": 1,
+            "name": "bois",
             "amount": 150
           },
           {
             "idResource": 1,
+            "name": "fer",
             "amount": 30
           }
         ]
@@ -57,10 +63,12 @@
         "prices": [
           {
             "idResource": 1,
+            "name": "bois",
             "amount": 270
           },
           {
             "idResource": 1,
+            "name": "fer",
             "amount": 75
           }
         ]

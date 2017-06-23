@@ -1,6 +1,7 @@
 export class Price {
     public idResource: number;
-    public amount: string;
+    public name: string;
+    public amount: number;
 
     constructor() {}
 }

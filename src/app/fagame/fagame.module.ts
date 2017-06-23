@@ -11,6 +11,7 @@ import { ResourceListComponent } from './resource/resource-list/resource-list.co
 
 import { BuildingContainer } from './building/building.container';
 import { BuildingListComponent } from './building/building-list/building-list.component';
+import { BuildingItemPriceComponent } from './building/building-list/building-item-price.component';
 
 @NgModule({
     imports: [
@@ -23,7 +24,8 @@ import { BuildingListComponent } from './building/building-list/building-list.co
         ResourceContainer,
         ResourceListComponent,
         BuildingContainer,
-        BuildingListComponent
+        BuildingListComponent,
+        BuildingItemPriceComponent
     ],
     exports: [
         FagameContainer
