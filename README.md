@@ -2,7 +2,7 @@
 
 This project is for training purpose
 
-# Technologie
+## Technologie
 
 - TypeScript
 - Angular 4
