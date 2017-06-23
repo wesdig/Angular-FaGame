@@ -1,6 +1,6 @@
 # Fagame
 
-This is project is for training purpose
+This project is for training purpose
 
 # Technologie
 
