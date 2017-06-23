@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "name": "bois",
+    "quantity": 5000
+  }, {
+    "id": 2,
+    "name": "fer",
+    "quantity": 5000
+  }, {
+    "id": 3,
+    "name": "pierre",
+    "quantity": 5000
+  }
+
+]

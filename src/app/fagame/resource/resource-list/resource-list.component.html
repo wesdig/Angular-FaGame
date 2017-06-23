@@ -1,0 +1,14 @@
+<section class="hero is-info">
+  <div class="hero-body">
+    <nav class="level">
+      <div 
+        *ngFor="let resource of resources"
+        class="level-item has-text-centered">
+        <div>
+          <p class="heading">{{ resource.name }}</p>
+          <p class="title">{{ resource.quantity }}</p>
+        </div>
+      </div>
+    </nav>
+  </div>
+</section>

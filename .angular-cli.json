@@ -19,6 +19,7 @@
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "app",
       "styles": [
+        "bulma.css",
         "styles.css"
       ],
       "scripts": [],
