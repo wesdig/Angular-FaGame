@@ -4,15 +4,15 @@ import { Observable } from 'rxjs/Observable';
 
 import 'rxjs/add/operator/map';
 
-import { Resource } from '../model/';
+import { Building } from '../model/';
 
 @Injectable()
-export class ResourceService {
+export class BuildingService {
 
     constructor(private http: Http) { }
 
-    getResources(): Observable<Resource[]> {
-        return this.http.get('assets/resource.json')
-            .map((resp): Resource[] => resp.json());
+    getBuildings(): Observable<Building[]> {
+        return this.http.get('assets/building.json')
+            .map((resp): Building[] => resp.json());
     }
 }

@@ -7,7 +7,7 @@ import { FagameModule } from './fagame/fagame.module';
 import { AppComponent } from './app.component';
 
 /* SERVICE */
-import { ResourceService } from './core/services/resource.service';
+import { ResourceService, BuildingService } from './core/services';
 
 
 
@@ -22,7 +22,8 @@ import { ResourceService } from './core/services/resource.service';
     FagameModule
   ],
   providers: [
-    ResourceService
+    ResourceService,
+    BuildingService
   ],
   bootstrap: [AppComponent]
 })

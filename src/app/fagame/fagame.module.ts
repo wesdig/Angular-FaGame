@@ -5,9 +5,12 @@ import { FagameContainer } from './fagame.container';
 
 import { MenuComponent } from './menu/menu.component';
 import { FooterComponent } from './footer/footer.component';
+
 import { ResourceContainer } from './resource/resource.container';
 import { ResourceListComponent } from './resource/resource-list/resource-list.component';
 
+import { BuildingContainer } from './building/building.container';
+import { BuildingListComponent } from './building/building-list/building-list.component';
 
 @NgModule({
     imports: [
@@ -15,10 +18,12 @@ import { ResourceListComponent } from './resource/resource-list/resource-list.co
     ],
     declarations: [
         FagameContainer,
-        ResourceContainer,
         MenuComponent,
         FooterComponent,
-        ResourceListComponent
+        ResourceContainer,
+        ResourceListComponent,
+        BuildingContainer,
+        BuildingListComponent
     ],
     exports: [
         FagameContainer

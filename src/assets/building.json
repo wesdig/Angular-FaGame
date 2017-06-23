@@ -1,0 +1,70 @@
+[
+  {
+    "id": 1,
+    "name": "Scierie",
+    "currentLevel": 1,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.",
+    "levels": [
+      {
+        "level": 2,
+        "prices": [
+          {
+            "idResource": 1,
+            "amount": 150
+          },
+          {
+            "idResource": 1,
+            "amount": 30
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "prices": [
+          {
+            "idResource": 1,
+            "amount": 270
+          },
+          {
+            "idResource": 1,
+            "amount": 75
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Mine de fer",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.",
+    "currentLevel": 1,
+    "levels": [
+      {
+        "level": 2,
+        "prices": [
+          {
+            "idResource": 1,
+            "amount": 150
+          },
+          {
+            "idResource": 1,
+            "amount": 30
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "prices": [
+          {
+            "idResource": 1,
+            "amount": 270
+          },
+          {
+            "idResource": 1,
+            "amount": 75
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,24 @@
+<div class="columns">
+    <div class="column is-one-third" *ngFor="let building of buildings">
+        <div class="card">
+            <header class="card-header">
+                <p class="card-header-title">
+                    {{ building.name }}
+                </p>
+            </header>
+            <div class="card-image">
+                <figure class="image is-4by3">
+                    <img src="http://bulma.io/images/placeholders/1280x960.png" alt="Image">
+                </figure>
+            </div>
+            <div class="card-content">
+                <div class="content">
+                    {{ building.description }}                    
+                </div>
+            </div>
+            <footer class="card-footer">
+                <a class="card-footer-item">Constuire</a>
+            </footer>
+        </div>
+    </div>
+</div>
